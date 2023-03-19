@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section id="sect1">
+        <div>
+            <img src="lake-5029360__340.jpg" alt="Lake musuli sana">
+            <p>Ping Pong Score Keeper</p>
+        </div>
+        <div class="sameMargin">
+            <h1>
+                <span id="scorePlayer1">0</span>
+                to <span id="scorePlayer2">0</span>
+            </h1>
+            <p id="para2">Use the buttons below to keep score</p>
+        </div>
+        <div class="sameMargin" id="controls">
+            <label for="playMax"><b>Playing To</b></label>
+            <select name="choice" id="playMax">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="player1">+1 Player One</button>
+            <button id="player2">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    margin: auto;
+    width: 400px;
+    padding: 50px;
+
+}
+
+
+
+#sect1 {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+p {
+    height: 20px;
+    margin: 0 7px;
+    font-size: 80%;
+}
+
+#para2 {
+    color: grey;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.sameMargin {
+    margin-left: 12px;
+}
+
+#controls {
+    margin: 10px;
+}
+
+.buttons {
+
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.buttons button {
+    width: 29%;
+    height: 35px;
+    border-radius: 5%;
+    color: white;
+}
+
+#player1 {
+    background-color: green;
+    border: solid 1px green;
+
+}
+
+#player2 {
+    background-color: blue;
+    border: solid 1px blue;
+
+}
+
+#reset {
+    background-color: red;
+    border: solid 1px red;
+
+}
+
+section div:first-of-type {
+    border-bottom: 2px solid grey;
+}
